@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  /* position: relative; */
+}
+.ask-box {
+  width: 100vw;
+  position: absolute;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0;
+}
+.ask-box h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 100px;
+}
+.btn {
+  background-color: red;
+  border-radius: 10%;
+  border-style: 1px #000 solid;
+  box-shadow: 1px 1px 1px #ccc;
+  padding: 15px 60px;
+  margin: 0 40px;
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.answer-box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hearts {
+  height: 80vh;
+  width: auto;
+}
+.stars {
+  background-image: url(./images/534591_c67b4.gif);
+  /* background-repeat: repeat; */
+}
