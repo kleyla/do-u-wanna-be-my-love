@@ -19,8 +19,8 @@
   margin: 40px 0;
 }
 .ask-box h2 {
-  font-family: "Dancing Script", cursive;
-  font-size: 100px;
+  font-family: "Rubik", sans-serif;
+  font-size: 80px;
 }
 .btn {
   background-color: red;
@@ -34,20 +34,50 @@
   font-size: 20px;
   font-weight: bold;
 }
-.answer-box {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .hearts {
-  height: 80vh;
+  height: 150px;
   width: auto;
 }
 .stars {
   background-image: url(./images/534591_c67b4.gif);
-  /* background-repeat: repeat; */
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#resultado p {
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+}
+
 @media (max-width: 768px) {
   .ask-box h2 {
     font-size: 50px;
